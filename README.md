@@ -33,21 +33,7 @@ After building, run SQLancer with your target database:
 
 **Important**: General options must come **before** the database type, while database-specific options come **after**.
 
-```bash
-# Show general help (lists all databases and options)
-java -jar target/sqlancer-2.0.0.jar
-
-# Show help for a specific database
-java -jar target/sqlancer-2.0.0.jar mysql
-java -jar target/sqlancer-2.0.0.jar postgres
-java -jar target/sqlancer-2.0.0.jar duckdb
-java -jar target/sqlancer-2.0.0.jar tidb
-java -jar target/sqlancer-2.0.0.jar clickhouse
-java -jar target/sqlancer-2.0.0.jar mariadb
-java -jar target/sqlancer-2.0.0.jar oceanbase
-```
-
-### Basic Example
+#### Basic Example
 
 ```bash
 # General options come BEFORE the database type
